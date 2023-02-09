@@ -1,4 +1,4 @@
-# sveltekit-netlify-app
+# sveltekit v1.5.0 scss template
 sveltekit에 autoprefixer, sass, 경로 별칭을 셋팅한 템플릿입니다.
   
 ## Packages
@@ -8,34 +8,16 @@ sveltekit에 autoprefixer, sass, 경로 별칭을 셋팅한 템플릿입니다.
 + sass: scss파일을 CSS로 컴파일해주는 도구입니다.
 + svelte-preprocess: Babel, PostCss, Sass(Scss) 등 전/후 처리기들을 지원합니다.
 
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+## Build Setup
+> 프로젝트 시작 전 패키지 설치
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+npm i
+```
+> 개발 서버 시작
+```
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
+> 빌드
+```
 npm run build
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
