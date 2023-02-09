@@ -8,16 +8,14 @@ SvelteKit에 autoprefixer, sass(scss), 경로 별칭을 셋팅한 템플릿입�
 + sass: scss파일을 CSS로 컴파일해주는 도구입니다.
 + svelte-preprocess: babel, postcss, sass(scss) 등 전/후 처리기들을 지원합니다.
 
-## Build Setup
-> 프로젝트 시작 전 패키지 설치
-```
-npm i
-```
-> 개발 서버 시작
-```
-npm run dev
-```
-> 빌드
-```
-npm run build
-```
+## Install template
+$ npx degit yomu85/sveltekit-scss-template DIR_NAME
+
+## Change directory
+$ cd DIR_NAME
+
+## Install dependencies
+$ npm i
+
+## Start dev server
+$ npm run dev
