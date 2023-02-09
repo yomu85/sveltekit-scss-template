@@ -5,7 +5,7 @@
 <h1>Home 제목</h1>
 <p>src의 경로 별칭은 ~ 입니다</p>
 <a href="https://kit.svelte.dev">
-  <img src="/favicon.png" alt="Main 이미지" />
+  <img src="/doosik01.png" alt="두식일" />
 </a>
 
 <style lang="scss">

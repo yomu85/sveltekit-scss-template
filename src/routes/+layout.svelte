@@ -5,7 +5,6 @@
 	import '~/scss/styles.scss';
 </script>
 
-
 <Header />
 
 <main>
